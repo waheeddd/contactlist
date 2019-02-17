@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/waheeddd/contactlist/precache-manifest.6e6619d1a27be8be091c65ba8dcf9d7d.js"
+  "/contactlist/precache-manifest.abc740378114855718c9b781f5238fe2.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/waheeddd/contactlist/index.html", {
+workbox.routing.registerNavigationRoute("/contactlist/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
